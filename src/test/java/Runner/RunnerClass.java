@@ -29,7 +29,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features",  // update to your real folder
         glue = {"org.example.Stepdefs"},           // update to your actual step defs package
-        plugin = {"html:target/cucumber-html-report","json:target/cucumber.json"},
+        plugin = {"html:target/cucumber-html-report"},
         publish=true
 )
 
