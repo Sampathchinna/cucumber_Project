@@ -6,4 +6,4 @@ Feature: Product Search on OpenCart Demo
       | Laptop |
       | Mobile |
       | Headset |
-    Then Products should be displayed
+    #Then Products should be displayed

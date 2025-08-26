@@ -40,15 +40,15 @@ public class SearchStepdefs {
         }
     }
 
-    @Then("Products should be displayed")
-    public void products_should_be_displayed() {
-        boolean resultsVisible = driver.findElements(By.xpath("//div[@data-component-type='s-search-result']")).size() > 0;
-        if (resultsVisible) {
-            System.out.println("Products displayed successfully");
-        } else {
-            System.out.println("No products found");
-        }
-    }
+//    @Then("Products should be displayed")
+//    public void products_should_be_displayed() {
+//        boolean resultsVisible = driver.findElements(By.xpath("//div[@data-component-type='s-search-result']")).size() > 0;
+//        if (resultsVisible) {
+//            System.out.println("Products displayed successfully");
+//        } else {
+//            System.out.println("No products found");
+//        }
+//    }
 
     // Highlight method
     public void highlightElement(WebElement element) {
